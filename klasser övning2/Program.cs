@@ -4,8 +4,8 @@ using System.Diagnostics.Tracing;
 using System.Runtime.InteropServices;
 
 List<rock> rocks = new List<rock>();
-bool isIntString1;
-bool isIntString2;
+// bool isIntString1;
+// bool isIntString2;
 
 Console.WriteLine("How many rocks to create?");
 
@@ -28,6 +28,5 @@ for (int i = 1;i <= intCreate; i++)
         Console.WriteLine ($"Created rock with {intWeight} weight.");
 
 }
-
-
 Console.WriteLine($"created {rocks.Count} rocks");
+Console.ReadLine();

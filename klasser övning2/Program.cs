@@ -17,7 +17,7 @@ for (int i = 1;i <= intCreate; i++)
 { 
     string stringWeight;
     int intWeight;
-    Console.WriteLine("how much should the rock weigh?");
+    Console.WriteLine("how much should this rock weigh?");
     stringWeight = Console.ReadLine();
     
 
